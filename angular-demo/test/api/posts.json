@@ -1,0 +1,34 @@
+[
+  {
+    "uid": 1,
+    "text" : "Okay, how 'bout we try this?",
+    "username" : "Tom Westman",
+    "userName" : "TomWestman",
+    "avatar" : "../test/images/avatar-01.svg",
+    "time" : 1407201547541
+  },
+  {
+    "uid": 2,
+    "text" : "Pheegulbubs...",
+    "username" : "John Weller",
+    "userName" : "JohnWeller",
+    "avatar" : "../test/images/avatar-02.svg",
+    "time" : 1407201447541
+  },
+    {
+    "uid": 3,
+    "text" : "My wife is Japanese!",
+    "username" : "Joe Fingerhut",
+    "userName" : "JoeFingerhut",
+    "avatar" : "../test/images/avatar-14.svg",
+    "time" : 1407201247541
+  },
+  {
+    "uid": 4,
+    "text" : "These kids will never learn.",
+    "username" : "Doug Wassilak",
+    "userName" : "DougWassilak",
+    "avatar" : "../test/images/avatar-16.svg",
+    "time" : 1407200547541
+  }
+]

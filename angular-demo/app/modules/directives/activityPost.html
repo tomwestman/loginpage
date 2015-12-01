@@ -1,0 +1,18 @@
+<div class="panel panel-primary col-md-offset-3 col-md-6">
+  <div class="panel-body">
+    <img src="{{post.avatar}}" class="profile-image img-circle">
+    <!-- <h3><a ui-sref="/profile/{{post.uid}}">{{post.username}}</a></h3>-->
+    <!--<h3><a href="http://localhost:8000/app/index.html#/phones/dell-streak-7">{{post.username}}</a></h3>-->
+    <!--<h3><a href="http://localhost:8012/app/index.html">{{post.username}}</a>'s phones</h3>-->
+    <!--<h3><a href="http://localhost:8012/app/index.html#/phones?age={{post.username}}">{{post.username}}</a>'s phones</h3>-->
+    <div style="font-size:19px; color:darkred">{{post.username}}'s <a href="http://localhost:8012/app/index.html#/phones?age={{post.userName}}">phones</a></div>
+    <!--<h3><a href="http://localhost:63342/egghead-angularjs-from-scratch-getting-started/index.finish.html">{{post.username}}</a>'s bookmarks</h3>-->
+    <!--<h3><a href="http://localhost:63342/egghead-angularjs-from-scratch-getting-started/index.finish.html#/user/{{post.username}}/">{{post.username}}</a>'s bookmarks</h3>-->
+    <div style="font-size:19px; color:darkred">{{post.username}}'s <a href="http://localhost:63342/egghead-angularjs-from-scratch-getting-started/index.finish.html#/user/{{post.userName}}/">bookmarks</a></div>
+
+
+
+    <div>{{post.time | timeConversion}} ago</div>
+  </div>
+  <div class="panel-footer">{{post.text}}</div>
+</div>
